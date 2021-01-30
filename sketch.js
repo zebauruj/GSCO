@@ -8,14 +8,11 @@ function setup() {
    weight=random(400,1500);
    speed=random(30,95);
 
- wall= createSprite(1500, 200, 60, 400);
+ wall= createSprite(1000, 200, 60, 400);
  wall.shapeColor="grey";
  car= createSprite(50, 100, 60, 30);
  car.shapeColor="white";
- car2= createSprite(50, 200, 60, 30);
- car2.shapeColor="white";
- car3= createSprite(50, 300, 60, 30);
- car3.shapeColor="blue";
+ 
 
 }
 
